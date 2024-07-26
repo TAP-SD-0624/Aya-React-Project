@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    gap: 5px;
+    background-color: var(--bg_default);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg_default);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.drakBtn:hover{
+    background-color:   #ff9f43;
+    color: aliceblue;
+    border: 0.8px aliceblue;
+    ion-icon{
+        color: aliceblue;
+    }
+}
+
+.btns{
+    display: flex;
+    gap: 5px;
+}
