@@ -11,6 +11,8 @@ font-family: 'Nunito Sans';
 --bg_courseBreaf:#333333;
 --white:white;
 --black:black;
+}
+*{
 margin: 0px;
 padding: 0px;
 }

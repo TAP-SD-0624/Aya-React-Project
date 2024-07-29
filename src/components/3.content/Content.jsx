@@ -6,10 +6,10 @@ import Search from '../3.1. search/Search'
 const Content = () => {
   return (
     <>
-
+    <div className='main'>
     <Search/>
     <HomePage/>
-    
+    </div>
     </>
   )
 }

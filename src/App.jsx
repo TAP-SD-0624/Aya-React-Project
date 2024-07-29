@@ -4,7 +4,7 @@ import NavBar from './components/1.navBar/NavBar'
 import Flex from './components/2.flex/Flex'
 import Content from './components/3.content/Content'
 import Favourite from './components/4.favourite/Favourite'
-
+import Footer from './components/5. footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,8 +14,11 @@ function App() {
       <NavBar/>
       <Flex/>
       <Content/>
-      <Favourite/>
+      <Footer/>
     </div>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
     </>
 
   )
