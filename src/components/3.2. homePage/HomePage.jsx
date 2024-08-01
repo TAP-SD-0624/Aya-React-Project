@@ -1,12 +1,13 @@
 import React from 'react'
+import './homePage.css'
 import Card from '../3.2.1. card/Card'
 
 const HomePage = () => {
   return (
     <>
-
-    <div>HomePage</div>
-    <Card/>
+    <h2 className='resFound'>
+      "24" Web Topics Found
+    </h2>
     </>    
   )
 }

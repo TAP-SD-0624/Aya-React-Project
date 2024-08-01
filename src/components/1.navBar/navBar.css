@@ -12,15 +12,16 @@ nav{
     margin-bottom: 1rem;
 }
 
-.drakBtn:hover{
+.darkBtn:hover{
     background-color:   #ff9f43;
     color: aliceblue;
     border: 0.8px aliceblue;
-    ion-icon{
-        color: aliceblue;
-    }
 }
-
+.favBtn:hover{
+    color: aliceblue;
+    border: 0.8px aliceblue ;
+    background-color: var(--heart-color);
+}
 .btns{
     display: flex;
     gap: 5px;
